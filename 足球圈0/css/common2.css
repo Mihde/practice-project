@@ -1,0 +1,83 @@
+
+header{
+	display: flex;
+	height: 0.88rem;
+	background: #0cc442;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+header .iconfont{
+	font-size: 0.20rem;
+	color: #fff;
+	position: absolute;
+	left:0.30rem;
+}
+header h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.21rem;
+	height: 0.48rem;
+	background: #ccc;
+	border-top-right-radius:  0.24rem;
+	border-bottom-right-radius:  0.24rem;
+	opacity: 0.7;
+}
+header .teshu{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0.24rem;
+	border-bottom-left-radius:0.24rem;
+}
+header h1 a{
+	font-size: 0.22rem;
+	color: #fff;
+	}
+
+
+
+
+
+
+
+
+
+
+footer{
+	height: 0.87rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background:#f7f7f7;
+	font-size:0.22rem;
+}
+footer .iconfont{
+	font-size: 0.4rem;
+	color: #cbcbcb;
+	padding-left: 0.05rem;
+}
+footer figure figcaption{
+	font-size: 0.23rem;
+}
+footer .teshu{
+	width: 1.02rem;
+	height: 1.02rem;
+	border: 0.01rem solid #ccc;
+	border-radius: 51.48rem;
+	margin-bottom: 0.18rem;
+	position: relative;
+	background: #fff;
+}
+footer .teshu .iconfont{
+	font-size: 0.576rem;
+	position: absolute;
+	left: 0.17rem;
+	top:0.17rem;
+}
+footer figure:active{
+	color: #0cc442;
+}
+footer figure:active .iconfont{
+	color: #0cc442;
+}

@@ -1,0 +1,51 @@
+header a:last-child{
+	font-size: 0.34rem;
+	color: #fff;
+}
+
+
+
+
+
+ form{
+	width: 6.4rem;
+	height: 0.65rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 0.01rem solid #cdcdcd;
+}
+form input[type="text"]{
+	height: 0.46rem;
+	width: 5.15rem;
+	font-size: 0.23rem;
+	border-radius: 0.05rem;
+	border: 0.01rem solid #aaa;
+}
+ form input[type="submit"]{
+	height: 0.46rem;
+	width: 0.91rem;
+	border-radius: 0.05rem;
+	background: #0CC442;
+	font-size: 0.23rem;
+}
+
+
+
+
+section{
+	flex: 1;
+	font-size: 0.23rem;
+}
+ section li{
+	 height: 0.64rem;
+	 line-height: 0.64rem;
+	 border-bottom: 0.01rem solid #ddd;
+ }
+ section li a{
+	 color: #aaa;
+ } 
+ section p{
+	 color: #aaa;
+	 text-align: center;
+ }

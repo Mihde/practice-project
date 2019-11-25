@@ -1,0 +1,61 @@
+.CaiDan{
+	width: 100rem;
+	height: 100rem;
+	position: fixed;
+	z-index: 20;
+	font-size: 0.23rem;
+	background: gray;
+	opacity: 0.8; 
+ }
+ 
+ .CaiDan .CaiDan-cont{
+	 width: 3.58rem;
+	 height: 100rem;
+	 background: #17592a;
+	 overflow: hidden;
+ }
+ 
+ .CaiDan .CaiDan-cont img{
+	 width: 1.57rem;
+	 height: 1.57rem;
+	 margin-top: 0.35rem;
+	 margin-left: 1rem;
+	 margin-bottom: 0.24rem;
+	 border-radius: 0.76rem;
+ }
+   .CaiDan .CaiDan-cont ul li {
+ 	  height: 0.59rem;
+ 	  text-align: center;
+ 	  line-height: 0.59rem;
+ 	  color: #fff;
+	  position: relative;
+	
+	  border-bottom: 0.01rem solid #ddd;
+ }
+  .CaiDan .CaiDan-cont ul li span{
+	  display: block;
+	  height: 0.59rem;
+	  text-align: center;
+	  line-height: 0.59rem;
+	  color: #fff;
+	   border-bottom: 0.01rem solid #ddd;
+  }
+  .CaiDan .CaiDan-cont ul li p{
+  	  height: 1.39rem;
+  	  text-align: center;
+  	  line-height: 0.59rem;
+  	  color: #fff;
+	display: none;
+  } 
+    .CaiDan .CaiDan-cont ul li:active {
+  	 padding-bottom: 1.39rem;
+	 }
+	  .CaiDan .CaiDan-cont ul li:active span {
+		  background: green;
+	  }
+  .CaiDan .CaiDan-cont ul li:active p{
+	  display: block;  
+  } 
+  
+  
+  

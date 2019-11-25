@@ -1,0 +1,53 @@
+
+
+
+.denglu{
+	width: 100rem;
+	height: 100rem;
+	position: fixed;
+	z-index: 20;
+	font-size: 0.23rem;
+	background: gray;opacity: 0.7;
+}
+
+
+.denglu form{
+	height: 4.51rem;
+	width: 5.01rem;
+	border: 0;
+	background: #fff;
+	border-radius: 0.05rem;
+	margin-left: 0.69rem;
+	margin-top: 3.02rem;
+	display: flex;
+	flex-direction: column;
+	color: #aaa;
+	opacity: 1;
+}
+.denglu h3{
+	font-size: 0.26rem;
+	height: 0.6rem;
+	width: 5.01rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #0CC442;
+	border-bottom: 0.01rem solid #ccc;
+}
+
+.denglu form input{
+	width: 4.15rem;
+	height: 0.9rem;
+	border: 0;
+	border-bottom: 0.01rem solid #b2b2b2 ;
+}
+.denglu form input[type="submit"]{
+	width: 4.15rem;
+	height: 0.6rem;
+	border: 0;
+	border-bottom: 0.01rem solid #b2b2b2 ;
+	border-radius: 0.05rem;
+}
+.denglu form a{
+	color: #0CC442;
+	text-decoration: underline;
+}

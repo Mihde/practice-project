@@ -1,0 +1,275 @@
+
+.banner{
+	width: 100%;
+	height: 457px;
+}
+.banner img{
+	width: 100%;
+	height: 457px;
+}
+		/*banner end*/
+.hezuo{
+	width: 100%;
+	height: 386px;
+	background: #f7f7f7;
+}
+.hezuo h2{
+	height: 62px;
+	font-size: 22px;
+	color: #000;
+	line-height: 62px;
+	text-align: center;
+	margin-top: 19px;
+}
+.hezuo p{
+	font-size:14px;
+	height: 14px;
+	line-height: 14px;
+	color: #999b96;
+	text-align: center;
+}
+.hezuo-cont{
+	width: 1135px;
+	height: 203px;
+	margin: auto;
+	margin-top: 29px;
+}
+.hezuo-cont ul{
+	width: 1135px;
+	height: 203px;
+	background: pink;
+	
+}
+.hezuo-cont ul li{
+	width: 188px;
+	height: 100px;
+	float: left;
+	border-bottom: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+}
+.hezuo-cont .teshu1{
+	border-top: 1px solid #ededed;
+}
+.hezuo-cont .teshu2{
+	border-right: 1px solid #ededed;
+}
+		/*hezuo end*/
+.youshi{
+	width: 100%;
+	height: 543px;
+	background: #1a1b1f;
+}
+.youshi-cont{
+	width: 1140px;
+	height: 543px;
+	margin: auto;
+	overflow: hidden;
+}
+.youshi-cont h2{
+	height: 64px;
+	font-size: 22px;
+	color: #fff;
+	line-height: 64px;
+	text-align: center;
+	margin-top: 53px;
+}
+.youshi-cont p{
+	font-size:12px;
+	height: 12px;
+	line-height: 12px;
+	color: #fff;
+	text-align: center;
+}
+.youshi-cont a{
+	display: block;
+}
+.youshi-cont dl{
+	width: 340px;
+	height: 260px;
+	margin-top: 109px;
+	background: #cfcfd1;
+	float: left;
+	position: relative;
+}
+.youshi-cont dl dt{
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+	position: absolute;
+	left: 105px;
+	top:-65px;
+}
+.youshi-cont .tu2{
+	top:-161px;
+	position: absolute;
+}
+.youshi-cont .tu3{
+	top:-321px;
+	position: absolute;
+}
+
+.youshi-cont dl dd{
+	width: 253px;
+	height: 260px;
+	margin: auto;
+}
+.youshi-cont dl dd h3{
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	color: #f15a53;
+	text-align: center;
+	padding-top: 96px;
+	font-weight: 900;
+}
+.youshi-cont dl dd p{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 19px;
+	color: #000;
+}
+.youshi-cont .teshu{
+	margin: 109px 62px 0 58px;
+}
+		/*youshi end*/
+.anli{
+	width: 100%;
+	height: 808px;
+	overflow: hidden;
+}
+.anli h2{
+	height: 64px;
+	font-size: 24px;
+	color: #000;
+	line-height: 64px;
+	text-align: center;
+	margin-top: 31px;
+}
+.anli p{
+	font-size:12px;
+	height: 12px;
+	line-height: 12px;
+	color: #979998;
+	text-align: center;
+}
+.anli .anli-cont-up{
+	width: 800px;
+	height: 40px;
+	margin: auto;
+	margin-top: 35px;background: #666;
+}
+.anli .anli-cont-up li{
+	width: 200px;
+	height: 47px;
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+}
+.anli ul li a{
+	color: #fff;
+}
+.anli ul li:hover{
+	background: url(../img/kuang.jpg);
+}
+.anli .anli-cont{
+	width:1140px;
+	height:542px;
+	margin: auto;
+	margin-top: 25px;
+}
+.anli .anli-cont li{
+	float: left;
+	width: 360px;
+	height: 256px;
+}
+.anli .anli-cont .teshu1{
+	margin-bottom: 30px;
+}
+.anli .anli-cont .teshu2{
+	margin:0 30px;
+}
+		/*anli end*/
+.news{
+	width: 100%;
+	height: 350px;
+	background: #f2f2f2;
+}
+.news-cont{
+	width: 1140px;
+	height: 350px;
+	margin: auto;
+	overflow: hidden;
+}
+.news-cont-left{
+	width: 340px;
+	height: 246px;
+	float: left;
+}
+.news-cont-center{
+	width: 340px;
+	height: 246px;
+	float: left;
+	margin: 0 60px;
+}
+.news-cont-right{
+	width: 340px;
+	height: 246px;
+	float: left;
+}
+.news-cont h3{
+	font-size: 16px;
+	height: 66px;
+	width: 256px;
+	line-height: 66px;
+	font-weight: 900;
+	color: #000;
+	margin-top: 11px;
+}
+.news-cont ul{
+	width: 340px;
+	height: 180px;
+	float: left;
+	
+}
+.news-cont ul li{
+	width: 340px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	
+}
+.news-cont ul li a{
+	display: block;
+	width: 256px;
+	height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	color: #88888a;
+}
+.news-cont ul li span{
+	width: 44px;
+	height: 30px;
+	float: right;
+	color: #88888a;
+}
+.news-cont ul li:hover a{
+	color:  #f75a53;
+}
+.news-cont .more {
+	display: block;
+	width: 106px;
+	height: 32px;
+	font-size: 11px;
+	line-height: 32px;
+	background: #f75a53 url(../img/jiaotou.jpg) no-repeat 82px 15px;
+	color: #fff;
+	margin-top: 197px;
+	border-radius:6px ;
+}
+.news-cont .more p{
+	padding-left: 11px;
+}

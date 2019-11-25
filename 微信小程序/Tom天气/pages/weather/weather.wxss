@@ -1,0 +1,49 @@
+.weather {
+  width: 100%;
+  height: 100vh;
+  background: #efefef;
+}
+
+/* weather end */
+
+.top {
+  width: 100%;
+  height: 400rpx;
+  background: paleturquoise;
+  /* position: fixed; */
+}
+
+.locationNow {
+  width: 100%;
+  height: 100rpx;
+  /* background: red; */
+  font-size: 48rpx;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherNow {
+  width: 100%;
+  height: 50rpx;
+  /* background: palevioletred; */
+  font-size: 28rpx;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.temperatureNow {
+  width: 100%;
+  height: 250rpx;
+
+  /* background: palevioletred; */
+  font-size: 200rpx;
+  font-weight: 100;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

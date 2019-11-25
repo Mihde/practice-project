@@ -1,0 +1,74 @@
+section{
+	width: 1600px;
+	height: 600px;
+	margin:100px auto;
+	perspective: 1000px;
+}
+section div{
+	width: 310px;
+	height: 100px;
+	position: relative;
+	transform-style: preserve-3d;
+	
+	transition: all 1s ease;
+	float: left;
+	margin-left: 100px;
+}
+section div p{
+	width: 350px;
+	height: 100px;
+	
+	position: absolute;
+}
+section div:nth-child(1) p:nth-child(1){
+	background: url(../img/chimpified.jpeg);
+	transform: rotateX(-90deg) translateZ(50px) translateY(50px);
+}
+section div:nth-child(1) p:nth-child(2){
+	background: url(../img/contact.png);
+}
+section div:nth-child(1):hover {
+	transform: rotateX(90deg);
+}
+
+section div:nth-child(2) p:nth-child(1){
+	background: url(../img/jilt.png);
+	transform: rotateX(-90deg) translateZ(50px) translateY(50px);
+}
+section div:nth-child(2) p:nth-child(2){
+	background: url(../img/olark.png);
+}
+section div:nth-child(2):hover {
+	transform: rotateX(90deg);
+}
+
+section div:nth-child(3) p:nth-child(1){
+	background: url(../img/ordoro.png);
+	transform: rotateX(-90deg) translateZ(50px) translateY(50px);
+}
+section div:nth-child(3) p:nth-child(2){
+	background: url(../img/yotpo.jpeg);
+}
+section div:nth-child(3):hover {
+	transform: rotateX(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

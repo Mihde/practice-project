@@ -1,0 +1,7 @@
+html,body,ul,li,dl,dt,dd,p,figure,figcaption,h1,h2,h3{margin:0;padding:0;}
+li{list-style:none;}
+a,u{text-decoration: none;}
+img{display: block;border: 0;}
+html,body{height: 100%;}
+b{font-style: normal;}
+

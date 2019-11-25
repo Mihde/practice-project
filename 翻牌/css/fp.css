@@ -1,0 +1,157 @@
+html,body{height: 100%;}
+
+
+section{
+	width: 100%;
+	height: 740px;
+	background: url(../img/hougong.jpg) no-repeat 200px;
+	transition: all 1s ease;
+}
+section div{
+	width: 90px;
+	height: 210px;
+	float: left;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: all 2s ease;
+	margin: 100px;	
+}
+section div:first-child{
+	margin-left: 300px;
+}
+
+section div p{
+	position: absolute;
+}
+section div p:nth-child(1){
+	transform: translateZ(25px);
+}
+section div p:nth-child(3){
+	transform: rotateY(-90deg) translateZ(15px) translateX(10px);
+}
+section div:nth-child(5) p:nth-child(4){
+	transform: rotateY(-90deg) translateZ(-65px) translateX(10px);
+}
+section div:hover{
+	transform: rotateY(180deg);
+}
+
+
+/*section div:nth-child(1){
+	left: 850px;
+	top:150px;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: all 4s ease;
+}
+section div:nth-child(1) p{
+	position: absolute;
+}
+section div:nth-child(1) p:nth-child(1){
+	transform: translateZ(25px);
+}
+section div:nth-child(1) p:nth-child(3){
+	transform: rotateY(-90deg) translateZ(15px) translateX(10px);
+}
+section div:nth-child(1) p:nth-child(4){
+	transform: rotateY(-90deg) translateZ(-65px) translateX(10px);
+}
+section div:nth-child(1):hover{
+	transform: rotateY(180deg);
+}
+
+
+
+section div:nth-child(2){
+	left: 700px;
+	top:150px;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: all 4s ease;
+}
+section div:nth-child(2) p{
+	position: absolute;
+}
+section div:nth-child(2) p:nth-child(1){
+	transform: translateZ(25px);
+}
+section div:nth-child(2) p:nth-child(3){
+	transform: rotateY(-90deg) translateZ(15px) translateX(10px);
+}
+section div:nth-child(2) p:nth-child(4){
+	transform: rotateY(-90deg) translateZ(-65px) translateX(10px);
+}
+section div:nth-child(2):hover{
+	transform: rotateY(180deg);
+}
+
+section div:nth-child(3){
+	left: 550px;
+	top:150px;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: all 4s ease;
+}
+section div:nth-child(3) p{
+	position: absolute;
+}
+section div:nth-child(3) p:nth-child(1){
+	transform: translateZ(25px);
+}
+section div:nth-child(3) p:nth-child(3){
+	transform: rotateY(-90deg) translateZ(15px) translateX(10px);
+}
+section div:nth-child(3) p:nth-child(4){
+	transform: rotateY(-90deg) translateZ(-65px) translateX(10px);
+}
+section div:nth-child(3):hover{
+	transform: rotateY(180deg);
+}
+
+section div:nth-child(4){
+	left: 1000px;
+	top:150px;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: all 4s ease;
+}
+section div:nth-child(4) p{
+	position: absolute;
+}
+section div:nth-child(4) p:nth-child(1){
+	transform: translateZ(25px);
+}
+section div:nth-child(4) p:nth-child(3){
+	transform: rotateY(-90deg) translateZ(15px) translateX(10px);
+}
+section div:nth-child(4) p:nth-child(4){
+	transform: rotateY(-90deg) translateZ(-65px) translateX(10px);
+}
+section div:nth-child(4):hover{
+	transform: rotateY(180deg);
+}*/
+
+/*section div:nth-child(5){
+	left: 1150px;
+	top:150px;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: all 4s ease;
+}
+section div:nth-child(5) p{
+	position: absolute;
+}
+section div:nth-child(5) p:nth-child(1){
+	transform: translateZ(25px);
+}
+section div:nth-child(5) p:nth-child(3){
+	transform: rotateY(-90deg) translateZ(15px) translateX(10px);
+}
+section div:nth-child(5) p:nth-child(4){
+	transform: rotateY(-90deg) translateZ(-65px) translateX(10px);
+}
+section div:nth-child(5):hover{
+	transform: rotateY(180deg);
+}*/
+
+
